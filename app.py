@@ -11,7 +11,7 @@ def load_and_preprocess_image(image_path, target_size):
     return img_array
 
 # Load the trained model
-model = models.load_model('your_model.h5')
+model = models.load_model('your_model_11.h5')
 
 # Streamlit app
 def main():
